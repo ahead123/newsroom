@@ -44,16 +44,16 @@ html, body {
 }
 
 
-.navbar ul.nav-pills li a {
+.navbar ul.nav li a {
 	padding: 20px 14px;
 	color: #fff;
 }
 
-.navbar ul.nav-pills li.active a {
+.navbar ul.nav li.active a {
 	background-color: #1877ff;
 }
 
-.navbar ul.nav-pills li a:hover {
+.navbar ul.nav li a:hover {
 	background-color: #1877ff;
 }
 
@@ -147,10 +147,12 @@ html, body {
 
 .footer{
 	padding: 40px 75px;
+	background-color: #000;
 }
 
-.footer a {
-	color: #000;
+.footer a, p {
+	color: #fff;
+	font-weight: 100;
 }
 
 
@@ -161,7 +163,7 @@ html, body {
 	#attention {
 		font-size: 60px;
 	}
-	
+
 }
 
 
