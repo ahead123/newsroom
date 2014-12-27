@@ -1,0 +1,172 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background: #000;
+	padding: 20px 0;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 300;
+}
+
+.header form {
+	margin-top: 25px;
+}
+
+#news-search {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 2px solid #fff;
+	background-color: #000;
+	width: 200px;
+	color: #fff;
+}
+
+#web-search {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #fff;
+	background-color: #000;
+	width: 75px;
+	margin-right: 5px;
+	color: #fff;
+	border-bottom: 2px solid #1A77FF;
+	margin-left: 10px;
+}
+
+.navbar {
+	background-color: #14212f;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 300;
+}
+
+
+.navbar ul.nav-pills li a {
+	padding: 20px 14px;
+	color: #fff;
+}
+
+.navbar ul.nav-pills li.active a {
+	background-color: #1877ff;
+}
+
+.navbar ul.nav-pills li a:hover {
+	background-color: #1877ff;
+}
+
+.navbar button {
+	background-color: #1877ff;
+}
+
+.navbar span.icon-bar {
+	background-color: #fff;
+}
+
+.main {
+	background-image: url('http://goo.gl/6KpJN9');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	margin-top: -20px;
+	font-family: 'Lato', sans-serif;
+	overflow: hidden;
+}
+
+.spacer {
+	margin-top: 40px;
+}
+
+.main p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#attention {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  font-size: 80px;
+  border-bottom: 5px solid #1A77FF;
+}
+
+#attention:hover {
+	text-decoration: none;
+}
+
+.featured {
+	background-color: #f2f2f2;
+	padding: 50px 0;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 100;
+  	overflow: hidden;
+}
+
+.featured h1, .featured h2, .featured h3, .featured h4 {
+	font-family: 'Lato', sans-serif;
+  	font-weight: 100;
+}
+
+.featured h3 {
+	margin-top: -5px;
+}
+
+.featured h4 {
+	margin-top: 25px;
+}
+
+.featured h2 {
+	font-weight: 600;
+}
+
+.featured h3 a {
+	border-bottom: 3px solid #1a77ff;
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+}
+
+#latest-news {
+	background-color: #fff;
+	padding: 30px;
+}
+
+#upcoming-events {
+	background-color: #152230;
+	color: #fff;
+	padding: 30px;
+}
+
+#upcoming-events h3 a {
+	font-weight: 600;
+	color: #fff;
+}
+
+.footer{
+	padding: 40px 75px;
+}
+
+.footer a {
+	color: #000;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+	#attention {
+		font-size: 60px;
+	}
+	
+}
+
+
+
+
+
+
+
